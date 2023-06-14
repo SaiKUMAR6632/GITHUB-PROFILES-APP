@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #131344 0%, #3a306f 74%);
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    border:none;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom:2rem ;
+    background-color: #2a2a72 ;
+    color: white;
+    font-size: 1rem;
+    font-family: inherit;
+    box-shadow: 0 0 5px 10px rgba(154,160,185,.05) ,0 15px 40px rgba(0,0,0,0.1);
+}
+input::placeholder{
+    color: #bbb;
+}
+input:focus{
+    outline: none;
+}
+.card{
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2c078a 0%, #3c0da1 74%);
+    display: flex;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 10px rgba(154,160,185,.05) ,0 15px 40px rgba(0,0,0,0.1);
+    max-width: 800px;
+}
+.avatar{
+    height: 150px;
+    width: 150px;
+    border: 10px solid #2a2a72;
+    border-radius: 50%;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class-info{
+    margin-left: 3rem;
+    color: white;
+}
+.class-info h2{
+    margin-top: 0;
+}
+.class-info ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 400px;
+    list-style-type: none;
+}
+.class-info ul li{
+    display: flex;
+    align-items:center;
+}
+.class-info ul li strong{
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+.repo{
+    background-color: #2a2a72;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+}
